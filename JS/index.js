@@ -28,6 +28,7 @@ function operation(_op) {
     updateMessage();
 }
 
+//gg
 function clear_input() {
     if (!num1Ready) {
         num1 = num1.slice(0, num1.length - 1);
