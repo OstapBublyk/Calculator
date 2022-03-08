@@ -71,6 +71,7 @@ function calculation(_enter) {
     if (isNaN(result) == true) {
         result = 0;
     }
+    num1 = result;
     num2 = '';
     op = '';
     num1Ready = false;
