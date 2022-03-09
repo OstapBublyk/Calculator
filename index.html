@@ -23,31 +23,34 @@
             </div>
         </div>
         <div class="body">
-            <div class="linebt">
-                <button onclick="input('1')" id="1">1</button>
-                <button onclick="input('2')" id="2">2</button>
-                <button onclick="input('3')" id="3">3</button>
-                <button onclick="operation('+')" id="+">+</button>
-            </div>
-            <div class="linebt">
-                <button onclick="input('4')" id="4">4</button>
-                <button onclick="input('5')" id="5">5</button>
-                <button onclick="input('6')" id="6">6</button>
-                <button onclick="operation('-')" id="-">-</button>
-            </div>
-            <div class="linebt">
-                <button onclick="input('7')" id="7">7</button>
-                <button onclick="input('8')" id="8">8</button>
-                <button onclick="input('9')" id="9">9</button>
-                <button onclick="operation('*')" id="*">*</button>
-            </div>
-            <div class="linebt">
-                <button onclick="input('0')" id="0">0</button>
-                <button onclick="clear_input()" id="clear">&lt;==</button>
-                <button onclick="operation('/')" id="/">/</button>
-            </div>
-            <div class="linebt">
-                <button onclick="calculation('enter')" id="enter">---------- Enter ----------</button>
+            <button onclick="input('.')" id="dot">.</button>
+            <div>
+                <div class="linebt">
+                    <button onclick="input('1')" id="1">1</button>
+                    <button onclick="input('2')" id="2">2</button>
+                    <button onclick="input('3')" id="3">3</button>
+                    <button onclick="operation('+')" id="+">+</button>
+                </div>
+                <div class="linebt">
+                    <button onclick="input('4')" id="4">4</button>
+                    <button onclick="input('5')" id="5">5</button>
+                    <button onclick="input('6')" id="6">6</button>
+                    <button onclick="operation('-')" id="-">-</button>
+                </div>
+                <div class="linebt">
+                    <button onclick="input('7')" id="7">7</button>
+                    <button onclick="input('8')" id="8">8</button>
+                    <button onclick="input('9')" id="9">9</button>
+                    <button onclick="operation('*')" id="*">*</button>
+                </div>
+                <div class="linebt">
+                    <button onclick="input('0')" id="0">0</button>
+                    <button onclick="clear_input()" id="clear">&lt;==</button>
+                    <button onclick="operation('/')" id="/">/</button>
+                </div>
+                <div class="linebt">
+                    <button onclick="calculation('enter')" id="enter">---------- Enter ----------</button>
+                </div>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>

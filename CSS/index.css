@@ -33,7 +33,12 @@ body {
 .body {
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 440px;
+    display: flex;
+    max-width: 550px;
+}
+
+.body #dot{
+    height: 270px;
 }
 
 .body .linebt{

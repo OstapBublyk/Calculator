@@ -9,8 +9,9 @@ function input(nb) {
     if (result != '') {
         num1 = '';
     }
-    if (num1 == "0" && op == '') {
+    if (num1 == "0" && op == '' && nb != '.') {
         num1 = "";
+        console.log(2)
     }
     if (!num1Ready) {
         num1 += nb;
